@@ -4,6 +4,9 @@
     --preto: #141414;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -65,14 +68,9 @@ header nav a:hover{
     cursor: pointer;
 }
 
-a:link{
-    color: white;
-    text-decoration: none;
-  
-}
-
 a{
     color: white;
+    text-decoration: none;
     transition: .3s ease all;
 }
 
@@ -121,9 +119,8 @@ a:hover{
 }
 
 .img{
-    padding: 5px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
